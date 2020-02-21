@@ -1,0 +1,20 @@
+.container {
+    font-size: 25px;
+    text-align: center;
+    color: blanchedalmond;    
+}
+
+#travelTips {
+    font-size: 2em;
+}
+
+.location__img {
+    display: block;
+    height: auto;
+    margin: 3em auto 1em auto;
+    width: 75%;
+}
+
+.locationName {
+    margin-top: 0px;
+}
