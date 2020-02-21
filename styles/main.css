@@ -1,14 +1,28 @@
 /* @css style sheets */
-@import url("/styles/fish.css");
-@import url("/styles/locations.css");
+@import 'navigation.css';
+@import 'fish.css';
+@import 'locations.css';
+@import 'tips.css';
 
-/* navigation */
-.navigation {
-    margin: 2em;
+/* general elements */
+body {
+    background-image: url("https://images.unsplash.com/photo-1549074862-6173e20d02a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
 }
 
-.navigation__link {
-    padding: 0 1em 0 1em;
+.bordered {
+    border: 1px groove coral;
 }
 
-/* other elements */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.oswald ul li {
+    font-family: 'Oswald', sans-serif;
+}

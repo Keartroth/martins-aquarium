@@ -1,0 +1,16 @@
+/* Martin's tips */
+.tip {
+    margin: 1rem 0 2rem 0;
+}
+
+.tipList {
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 25px;
+    color: aliceblue;
+    flex-basis: 20%;
+}
+
+.tipList header h3 {
+    font-size: 2em;
+    text-align: center;
+}
