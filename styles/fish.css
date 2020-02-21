@@ -1,15 +1,41 @@
 /* Martin's fish list */
+.button--close {
+    border-radius: 50%;
+    display: block;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button--open {
+    background-color: lavender;
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dialog--fish {
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
 .fish {
     background-color: rgba(107, 186, 255, 0.74);
     border-radius: 25px;
     height: auto;
-    width: 290px;
+    width: auto;
+}
+
+.fish__details h3 {
+    text-align: center;
+    margin: 0.5em 0.5em;
 }
 
 .fish__details ul {
     list-style-type: none;
     padding: 0px;
-    margin-left: 1em;
+    margin: 2em 2em 1em 2em;
 }
 
 .fish__image {
