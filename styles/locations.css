@@ -1,11 +1,20 @@
+#bonareImg {
+    margin-top: 2em;
+}
+
 .container {
     font-size: 25px;
     text-align: center;
     color: blanchedalmond;    
 }
 
+.dialog--tip {
+    background-color: coral;
+}
+
 #travelTips {
     font-size: 2em;
+    border: 5px inset chocolate;
 }
 
 .location__img {
@@ -17,4 +26,10 @@
 
 .locationName {
     margin-top: 0px;
+}
+
+#travelTips {
+    background-color: blanchedalmond;
+    color: black;
+    display: inline;
 }

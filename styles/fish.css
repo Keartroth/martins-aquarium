@@ -1,8 +1,4 @@
 /* Martin's fish list */
-body {
-    background-image: url("https://images.unsplash.com/photo-1549074862-6173e20d02a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
 .button--close {
     border-radius: 50%;
     box-shadow: 0px 0px 20px 1px;
