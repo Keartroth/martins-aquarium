@@ -1,7 +1,7 @@
 // An array of fish objects called fishCollection, and a function
 // which returns a copy of the array fishCollection
 
-const fishCollection = [
+const arrayOfFishObjects = [
     {
         Name: "Kermit",
         Species: "Warty Frogfish",
@@ -59,5 +59,5 @@ const fishCollection = [
 ];
 
 export const useFish = () => {
-    return fishCollection.slice();
+    return arrayOfFishObjects.slice();
 }
