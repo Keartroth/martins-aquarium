@@ -1,5 +1,5 @@
-// An array of fish objects and a function which returns 
-// an object from the array
+// An array of fish objects called fishCollection, and a function
+// which returns a copy of the array fishCollection
 
 const fishCollection = [
     {

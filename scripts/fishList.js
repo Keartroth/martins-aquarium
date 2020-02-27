@@ -1,17 +1,16 @@
 import { useFish } from "./FishDataProvider.js"
-import Fish from "./fish.js";
+import fish from "./fish.js";
 
 /**
  *  FishList which renders individual fish objects as HTML
  */
-const FishList = () => {
+const fishList = () => {
     const contentElement = document.querySelector(".fishList");
-    const fishes = useFish();
+    const fishObjectsArray = useFish();
 
-    // Add to the existing HTML in the content element
-    for (const fishObject of fishes) {
-        contentElement.innerHTML += Fish(fishObject);
+    for (const fishObject of fishObjectsArray) {
+        contentElement.innerHTML += fish(fishObject);
     }
 }
 
-export default FishList
+export default fishList
