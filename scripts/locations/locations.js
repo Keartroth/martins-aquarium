@@ -50,4 +50,3 @@ const initializeTravelTipsEvents = () => {
 
 
 initializeTravelTipsEvents();
-// export default initializeTravelTipsEvents;
