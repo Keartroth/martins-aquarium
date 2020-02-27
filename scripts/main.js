@@ -1,22 +1,17 @@
-/**
- *  Import the initializeDetailButtonEvents function
- *  reference and then invoke it
- */
 import initializeDetailButtonEvents from './dialogs.js'
 import { useFish } from './FishDataProvider.js'
+import FishList from './fishList.js';
+
 // import initializeTravelTipsEvents from './locations.js'
 
 
+
+FishList();
 initializeDetailButtonEvents();
-useFish();
 // initializeTravelTipsEvents();
 
 
-const arrayOfTheFishObjects = useFish();
 
-for (const currentFishObject of arrayOfTheFishObjects) {
-    console.log(currentFishObject);
-}
 
 
 // if (window.location.hostname === "http://localhost:5000/locations/locations") {
