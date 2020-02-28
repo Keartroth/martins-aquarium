@@ -13,4 +13,4 @@ const fishList = () => {
     }
 }
 
-export default fishList
+export default fishList;

@@ -1,7 +1,7 @@
 /* @css style sheets */
-@import 'navigation.css';
 @import 'fish.css';
 @import 'locations.css';
+@import 'navigation.css';
 @import 'tips.css';
 
 /* general elements */

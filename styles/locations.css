@@ -1,4 +1,4 @@
-#bonareImg {
+#bonaireImg {
     margin-top: 2em;
 }
 
@@ -13,8 +13,11 @@
 }
 
 #travelTips {
-    font-size: 2em;
+    background-color: blanchedalmond;
     border: 5px inset chocolate;
+    color: black;
+    display: inline;
+    font-size: 2em;
 }
 
 .location__img {
@@ -26,10 +29,4 @@
 
 .locationName {
     margin-top: 0px;
-}
-
-#travelTips {
-    background-color: blanchedalmond;
-    color: black;
-    display: inline;
 }

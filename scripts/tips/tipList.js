@@ -20,4 +20,4 @@ const tipList = () => {
     }
 }
 
-export default tipList
+export default tipList;

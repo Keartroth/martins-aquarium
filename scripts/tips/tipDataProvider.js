@@ -1,19 +1,19 @@
 const arrayOfTipObjects = [
     {
-        title: "H2O",
-        message: "Make sure your tank has water"
+        message: "Make sure your tank has water.",
+        title: "H2O"
     },
     {
-        title: "Sanitation",
-        message: "Clean the poop out on a regular basis",
+        message: "Clean the poop out on a regular basis.",
+        title: "Sanitation"
     },
     {
-        title: "Feeding",
-        message: "Make sure to feed them daily",
+        message: "Make sure to feed them daily.",
+        title: "Feeding"
     },
     {
-        title: "Prey & Predator",
-        message: "Don't mix your sharks and fish",
+        message: "Don't mix your sharks and fish!",
+        title: "Prey & Predator"
     },
 ]
 

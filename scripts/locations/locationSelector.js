@@ -49,4 +49,4 @@ const initializeTravelTipsEvents = () => {
 }
 
 
-export default initializeTravelTipsEvents();
+export default initializeTravelTipsEvents;
