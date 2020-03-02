@@ -56,36 +56,38 @@ const arrayOfFishObjects = [
         Name: "Brody",
         Species: "Great White Shark"
     },
-];
+]
 
 export const useFish = () => {
     return arrayOfFishObjects.slice();
 }
 
-const mostHolyFish = () => {
+export const mostHolyFish = () => {
+    const holyFish = [];
     for (const fish of arrayOfFishObjects) {
-        if (fish.length % 3 === 0) {
-            console.log("This is a holy fish!")
-        };
-    };
-};
+        if (fish.Length % 3 === 0) {
+            holyFish.push(fish);
+        }
+    }
+    return holyFish;
+}
 
-const soldierFish = () => {
+export const soldierFish = () => {
+    const soldiers = [];
     for (const fish of arrayOfFishObjects) {
-        if (fish.length % 5 === 0) {
-            console.log("This is a soldier fish!")
-        };
-    };
-};
+        if (fish.Length % 5 === 0 && fish.Length % 3 !== 0) {
+            soldiers.push(fish);
+        }
+    }
+    return soldiers;
+}
 
-const otherFish = () => {
+export const otherFish = () => {
+    const unimportant = [];
     for (const fish of arrayOfFishObjects) {
-        if (fish.length % 3 !== 0 & fish.length % 5 !==0) {
-            console.log("Jutz'kar has no use for this fish!")
-        };
-    };
-};
-
-mostHolyFish();
-soldierFish();
-otherFish();
+        if (fish.Length % 3 !== 0 && fish.length % 5 !==0) {
+            unimportant.push(fish);
+        }
+    }
+    return unimportant;
+}

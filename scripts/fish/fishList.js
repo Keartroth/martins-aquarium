@@ -1,4 +1,4 @@
-import { useFish } from "./FishDataProvider.js"
+import { useFish, soldierFish, mostHolyFish, otherFish } from "./FishDataProvider.js"
 import fish from "./fish.js";
 
 /**
