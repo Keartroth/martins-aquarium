@@ -8,9 +8,7 @@ const fish = (fishObject) => {
     <div class="fish__details oswald">
         <h3 class="${fishObject.Class}">${fishObject.Name}</h3>
 
-        <div>
-            <button class="button--open oswald" id="button--${fishObject.Class}">Details</button>
-        </div>
+        <button class="button--open oswald" id="button--${fishObject.Class}">Details</button>
 
         <dialog class="dialog--fish" id="details--${fishObject.Class}">
             <ul>
