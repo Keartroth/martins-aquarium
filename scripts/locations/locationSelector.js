@@ -13,39 +13,18 @@ const initializeTravelTipsEvents = () => {
     }
     // CAN'T TOUCH THIS - END
 
+    const allDetailImages = document.querySelectorAll("img[id^='details--']");
 
-    // You will be writing code below this line
-    document.querySelector("#bonaireImg").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#tips--bonaire")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#thailandImg").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#tips--thailand")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#reefImg").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#tips--reef")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#indianImg").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#tips--indian")
-            theDialog.showModal()
-        }
-    )
+    for (const image of allDetailImages) {
+        image.addEventListener(
+            "click",
+            theClickEvent => {
+                const dialogSiblingSelector = `#${theClickEvent.target.id}~dialog`;
+                const theDialog = document.querySelector(dialogSiblingSelector);
+                theDialog.showModal();
+            }
+        )
+    }
 }
 
 

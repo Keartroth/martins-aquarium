@@ -1,7 +1,7 @@
 const location = (locationObject) => {
     return `
     <section class="location">
-          <img src="${locationObject.image}" alt="${locationObject.id}" class="location__img" id="${locationObject.id}Img" />
+          <img src="${locationObject.image}" alt="${locationObject.id}" class="location__img" id="details--${locationObject.id}Img" />
           <h4 class="locationName">${locationObject.name}</h4>
 
           <dialog class="dialog--tip" id="tips--${locationObject.id}">
