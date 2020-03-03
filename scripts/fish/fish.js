@@ -12,6 +12,7 @@ const fish = (fishObject) => {
 
         <dialog class="dialog--fish" id="details--${fishObject.Class}">
             <ul>
+                <li>Jutz'kar's Title: ${fishObject.Title}</li>
                 <li>Species: ${fishObject.Species}</li>
                 <li>Harvested: ${fishObject.Harvested}</li>
                 <li>Length: ${fishObject.Length} inches</li>

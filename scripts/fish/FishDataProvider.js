@@ -16,7 +16,7 @@ const arrayOfFishObjects = [
         Food: ["Copepods"],
         Harvested: "Thailand",
         Image: "https://www.azgardens.com/wp-content/uploads/2017/04/Red-Scooter-Blenny-Male.jpg",
-        Length: 3,
+        Length: 2,
         Name: "Moped",
         Species: "Scooter Blenny"
     },
@@ -25,7 +25,7 @@ const arrayOfFishObjects = [
         Food: ["Shrimp"],
         Harvested: "Great Barrier Reef",
         Image: "https://i.pinimg.com/originals/f0/79/9b/f0799b8f571f7bd5dcf10e0dec331472.jpg",
-        Length: 4,
+        Length: 3,
         Name: "Shenlong",
         Species: "Mandarin Dragonet"
     },
@@ -35,7 +35,7 @@ const arrayOfFishObjects = [
         Harvested: "Bonaire",
         Image: "https://www.reef2reef.com/attachments/untitled-design-10-jpg.1105997/",
         Length: 15,
-        Name: "Victoria",
+        Name: "Marie Antoinette",
         Species: "Queen Angel"
     },
     {
@@ -52,7 +52,7 @@ const arrayOfFishObjects = [
         Food: ["Seals", "Fish"],
         Harvested: "Great Barrier Reef",
         Image: "https://oceana.org/sites/default/files/styles/lightbox_full/public/noaa_white_shark_2.jpg?itok=aK_qqtXR",
-        Length: 240,
+        Length: 245,
         Name: "Brody",
         Species: "Great White Shark"
     },
@@ -66,6 +66,7 @@ export const mostHolyFish = () => {
     const holyFish = [];
     for (const fish of arrayOfFishObjects) {
         if (fish.Length % 3 === 0) {
+            fish.Title = "Most Holy";
             holyFish.push(fish);
         }
     }
@@ -76,6 +77,7 @@ export const soldierFish = () => {
     const soldiers = [];
     for (const fish of arrayOfFishObjects) {
         if (fish.Length % 5 === 0 && fish.Length % 3 !== 0) {
+            fish.Title = "Soldier";
             soldiers.push(fish);
         }
     }
@@ -85,7 +87,8 @@ export const soldierFish = () => {
 export const otherFish = () => {
     const unimportant = [];
     for (const fish of arrayOfFishObjects) {
-        if (fish.Length % 3 !== 0 && fish.length % 5 !==0) {
+        if (fish.Length % 5 !== 0 && fish.Length % 3 !==0) {
+            fish.Title = "Undesirable";
             unimportant.push(fish);
         }
     }
