@@ -12,9 +12,10 @@ const fish = (fishObject) => {
 
         <dialog class="dialog--fish" id="details--${fishObject.Class}">
             <ul>
+                <li>Jutz'kar's Title: ${fishObject.Title}</li>
                 <li>Species: ${fishObject.Species}</li>
                 <li>Harvested: ${fishObject.Harvested}</li>
-                <li>Length: ${fishObject.Length}</li>
+                <li>Length: ${fishObject.Length} inches</li>
                 <li>Food: ${fishObject.Food.join(", ")}</li>
             </ul>
             <button class="button--close" id="close-${fishObject.Class}">Close</button>
