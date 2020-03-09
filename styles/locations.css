@@ -1,23 +1,15 @@
-#details--bonaireImg {
-    margin-top: 2em;
-}
-
 .container {
     font-size: 25px;
     text-align: center;
     color: blanchedalmond;    
 }
 
-.dialog--tip {
-    background-color: coral;
+#details--bonaireImg {
+    margin-top: 2em;
 }
 
-#travelTips {
-    background-color: blanchedalmond;
-    border: 5px inset chocolate;
-    color: black;
-    display: inline;
-    font-size: 2em;
+.dialog--tip {
+    background-color: coral;
 }
 
 .location__img {
@@ -29,4 +21,12 @@
 
 .locationName {
     margin-top: 0px;
+}
+
+#travelTips {
+    background-color: blanchedalmond;
+    border: 5px inset chocolate;
+    color: black;
+    display: inline;
+    font-size: 2em;
 }

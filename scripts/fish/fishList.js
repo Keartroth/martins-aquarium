@@ -5,8 +5,8 @@ import fish from "./fish.js";
  *  FishList which renders individual fish objects as HTML,
  *  dependent upon whether they are a factor of three or five.
  */
+const contentElement = document.querySelector(".fishList");
 const fishList = () => {
-    const contentElement = document.querySelector(".fishList");
     let fishObjectsArray = mostHolyFish();
 
     for (const fishObject of fishObjectsArray) {

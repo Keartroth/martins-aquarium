@@ -7,7 +7,7 @@ const arrayOfFishObjects = [
         Food: ["Crustaceans", "Fish"],
         Harvested: "Indian Ocean",
         Image: "http://www.diverslodgelembeh.com/wp-content/uploads/2017/02/juvenile-clown-frog-fish-divers-lodge-lembeh.jpg",
-        Length: 4,
+        Length: 5,
         Name: "Kermit",
         Species: "Warty Frogfish"
     },
